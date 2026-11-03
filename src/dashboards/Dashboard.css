@@ -1,0 +1,258 @@
+
+.dashboard-page {
+  min-height: 100vh;
+  padding: 28px;
+  background: #f3f6fb;
+  font-family: Arial, sans-serif;
+  color: #243247;
+}
+
+.dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 25px;
+}
+
+.dashboard-header h1 {
+  margin: 0 0 8px;
+  font-size: 28px;
+}
+
+.dashboard-header p {
+  margin: 0;
+  color: #65748b;
+}
+
+.dashboard-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+  gap: 18px;
+}
+
+.dashboard-card {
+  background: white;
+  padding: 23px;
+  border-radius: 14px;
+  box-shadow: 0 3px 12px #182c4410;
+  border: 1px solid #e5eaf1;
+}
+
+.dashboard-card .card-icon {
+  font-size: 30px;
+  margin-bottom: 14px;
+}
+
+.dashboard-card h3 {
+  margin: 0 0 9px;
+  font-size: 18px;
+}
+
+.dashboard-card p {
+  color: #65748b;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.dashboard-button {
+  border: none;
+  border-radius: 8px;
+  padding: 11px 17px;
+  background: #173e70;
+  color: white;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.dashboard-button:hover {
+  background: #24568f;
+}
+
+@media (max-width: 600px) {
+  .dashboard-page {
+    padding: 16px;
+  }
+
+  .dashboard-header h1 {
+    font-size: 23px;
+  }
+}
+
+.customer-form-section,
+.customer-list-section {
+  background: white;
+  padding: 25px;
+  margin-top: 25px;
+  border-radius: 14px;
+  box-shadow: 0 3px 12px #182c4410;
+}
+
+.customer-form-section h2,
+.customer-list-section h2 {
+  margin-top: 0;
+  margin-bottom: 22px;
+}
+
+.customer-form-section form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  max-width: 650px;
+}
+
+.customer-form-section label {
+  font-weight: 600;
+  color: #243247;
+}
+
+.customer-form-section input,
+.customer-form-section textarea {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 12px;
+  border: 1px solid #ccd5e0;
+  border-radius: 8px;
+  font-size: 14px;
+  font-family: Arial, sans-serif;
+}
+
+.customer-form-section textarea {
+  min-height: 90px;
+  resize: vertical;
+}
+
+.form-buttons {
+  display: flex;
+  gap: 12px;
+  margin-top: 12px;
+}
+
+.cancel-button,
+.delete-button {
+  border: none;
+  padding: 11px 17px;
+  border-radius: 8px;
+  cursor: pointer;
+  color: white;
+}
+
+.cancel-button {
+  background: #64748b;
+}
+
+.delete-button {
+  background: #dc3545;
+}
+
+.customer-table-wrapper {
+  overflow-x: auto;
+}
+
+.customer-table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 650px;
+}
+
+.customer-table th,
+.customer-table td {
+  padding: 13px;
+  text-align: left;
+  border-bottom: 1px solid #e5eaf1;
+}
+
+.customer-table th {
+  background: #173e70;
+  color: white;
+}
+
+.customer-table td {
+  color: #344256;
+}
+
+.vehicle-form-section,
+.vehicle-list-section {
+  background: white;
+  padding: 25px;
+  margin-top: 25px;
+  border-radius: 14px;
+  box-shadow: 0 3px 12px #182c4410;
+}
+
+.vehicle-form-section h2,
+.vehicle-list-section h2 {
+  margin-top: 0;
+  margin-bottom: 22px;
+}
+
+.vehicle-form-section form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  max-width: 650px;
+}
+
+.vehicle-form-section label {
+  font-weight: 600;
+  color: #243247;
+}
+
+.vehicle-form-section input,
+.vehicle-form-section select {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 12px;
+  border: 1px solid #ccd5e0;
+  border-radius: 8px;
+  font-size: 14px;
+  font-family: Arial, sans-serif;
+}
+
+.vehicle-form-section,
+.vehicle-list-section {
+  background: white;
+  padding: 25px;
+  margin-top: 25px;
+  border-radius: 14px;
+  box-shadow: 0 3px 12px #182c4410;
+}
+
+.vehicle-form-section h2,
+.vehicle-list-section h2 {
+  margin-top: 0;
+  margin-bottom: 22px;
+}
+
+.vehicle-form-section form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  max-width: 650px;
+}
+
+.vehicle-form-section label {
+  font-weight: 600;
+  color: #243247;
+}
+
+.vehicle-form-section input,
+.vehicle-form-section select {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 12px;
+  border: 1px solid #ccd5e0;
+  border-radius: 8px;
+  font-size: 14px;
+  font-family: Arial, sans-serif;
+}
+
+.vehicle-list-section .form-buttons {
+  margin: 0;
+  flex-wrap: wrap;
+}
+
+.vehicle-list-section td {
+  vertical-align: middle;
+}

@@ -1,0 +1,21 @@
+# Python temporary files
+__pycache__/
+*.py[cod]
+**/__pycache__/
+
+# Django database
+db.sqlite3
+**/db.sqlite3
+
+# Virtual environment
+venv/
+.venv/
+
+# React
+node_modules/
+dist/
+
+# Environment variables
+.env
+.env.*
+!.env.example
